@@ -5,5 +5,5 @@ This code allows you to use tabs so that when you click on them, certain content
 Данный код позволяет использовать табы, что бы при клике на них появлялся определенный контент, соответствующий данному табу. Взаимодействие происходит с помощью обработчика событий.
 
 let tab = document.querySelectorAll('.info-header-tab'),  //  ('.class_tabs')  
-        info = document.querySelector('.info-header'),    //  ('.Parent_class_tabs') (Родительский класс) 
-        tabContent = document.querySelectorAll('.info-tabcontent'); //   ('.Info_content_class') (Непосредственно контент связываемый с табами)
+let info = document.querySelector('.info-header'),    //  ('.Parent_class_tabs') (Родительский класс) 
+let tabContent = document.querySelectorAll('.info-tabcontent'); //   ('.Info_content_class') (Непосредственно контент связываемый с табами)
